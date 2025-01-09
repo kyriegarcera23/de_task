@@ -1,0 +1,303 @@
+2025-01-07 03:08:07,287 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 2, in <module>
+    import logger
+ModuleNotFoundError: No module named 'logger'
+2025-01-07 03:08:20,342 - INFO - Running the script at 03:08...
+2025-01-07 03:18:24,441 - INFO - Running the script at 03:18...
+2025-01-07 03:18:24,451 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'database.json'
+2025-01-07 03:19:13,598 - INFO - Running the script at 03:19...
+2025-01-07 03:19:13,598 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'database.json'
+2025-01-07 03:21:08,988 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 7, in <module>
+    from database import db_config
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\database\db_config.py", line 4, in <module>
+    from app import conf
+ImportError: cannot import name 'conf' from 'app' (C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\__init__.py)
+2025-01-07 03:25:43,793 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 8, in <module>
+    from database import db_config
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\database\db_config.py", line 4, in <module>
+    from app import conf
+ImportError: cannot import name 'conf' from 'app' (C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\__init__.py)
+2025-01-07 03:25:54,073 - INFO - Running the script at 03:25...
+2025-01-07 03:25:54,074 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'C:\\Users\\Kyrie Garcera\\Desktop\\StratusAutomate\\import_to_db_enhancement\\app\\conf\\database.json'
+2025-01-07 03:26:05,344 - INFO - Running the script at 03:26...
+2025-01-07 03:26:05,344 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'C:\\Users\\Kyrie Garcera\\Desktop\\StratusAutomate\\import_to_db_enhancement\\app\\conf\\database.json'
+2025-01-07 03:26:35,076 - INFO - Running the script at 03:26...
+2025-01-07 03:26:35,076 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'C:\\Users\\Kyrie Garcera\\Desktop\\StratusAutomate\\import_to_db_enhancement\\app\\conf\\database.json'
+2025-01-07 03:27:03,031 - INFO - Running the script at 03:27...
+2025-01-07 03:27:15,307 - INFO - Running the script at 03:27...
+2025-01-07 03:29:46,744 - INFO - Running the script at 03:29...
+2025-01-07 03:30:04,786 - INFO - Running the script at 03:30...
+2025-01-07 03:43:20,887 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 9, in <module>
+    from app import excel_files
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\excel_files.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+2025-01-07 03:44:14,566 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 9, in <module>
+    from app import excel_files
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\excel_files.py", line 7, in <module>
+    class Excel_files:
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\excel_files.py", line 11, in Excel_files
+    def generate_create_table_sql(self,table_name: str, columns: Dict[str, str]) -> str:
+                                                                 ^^^^
+NameError: name 'Dict' is not defined. Did you mean: 'dict'?
+2025-01-07 03:44:40,117 - INFO - Running the script at 03:44...
+2025-01-07 03:45:07,611 - INFO - Running the script at 03:45...
+2025-01-07 03:45:07,652 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:45:07,652 - WARNING - Module for dim_payment_schedule not found. Skipping.
+2025-01-07 03:45:07,652 - INFO - Importing to raw_flight_training..
+2025-01-07 03:45:07,652 - WARNING - Module for raw_flight_training not found. Skipping.
+2025-01-07 03:45:07,654 - INFO - Importing to stg_disbursements..
+2025-01-07 03:45:07,654 - WARNING - Module for stg_disbursements not found. Skipping.
+2025-01-07 03:45:56,453 - INFO - Running the script at 03:45...
+2025-01-07 03:45:56,479 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:45:56,479 - WARNING - Module for dim_payment_schedule not found. Skipping.
+2025-01-07 03:45:56,479 - INFO - Importing to raw_flight_training..
+2025-01-07 03:45:56,480 - WARNING - Module for raw_flight_training not found. Skipping.
+2025-01-07 03:45:56,480 - INFO - Importing to stg_disbursements..
+2025-01-07 03:45:56,481 - WARNING - Module for stg_disbursements not found. Skipping.
+2025-01-07 03:46:18,095 - INFO - Running the script at 03:46...
+2025-01-07 03:46:18,139 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:46:18,139 - WARNING - Module for dim_payment_schedule not found. Skipping.
+2025-01-07 03:46:18,139 - INFO - Importing to raw_flight_training..
+2025-01-07 03:46:18,140 - WARNING - Module for raw_flight_training not found. Skipping.
+2025-01-07 03:46:18,140 - INFO - Importing to stg_disbursements..
+2025-01-07 03:46:18,140 - WARNING - Module for stg_disbursements not found. Skipping.
+2025-01-07 03:46:39,925 - INFO - Running the script at 03:46...
+2025-01-07 03:46:39,947 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:46:39,947 - WARNING - Module for dim_payment_schedule not found. Skipping.
+2025-01-07 03:46:39,952 - INFO - Importing to raw_flight_training..
+2025-01-07 03:46:39,952 - WARNING - Module for raw_flight_training not found. Skipping.
+2025-01-07 03:46:39,952 - INFO - Importing to stg_disbursements..
+2025-01-07 03:46:39,953 - WARNING - Module for stg_disbursements not found. Skipping.
+2025-01-07 03:47:32,438 - INFO - Running the script at 03:47...
+2025-01-07 03:47:32,468 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:47:32,483 - ERROR - Error reading dim_payment_schedule.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-01-07 03:47:32,483 - INFO - Importing to raw_flight_training..
+2025-01-07 03:47:32,496 - ERROR - Error reading raw_flight_training.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-01-07 03:47:32,496 - INFO - Importing to stg_disbursements..
+2025-01-07 03:47:32,509 - ERROR - Error reading stg_disbursements.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-01-07 03:47:54,155 - INFO - Running the script at 03:47...
+2025-01-07 03:47:54,184 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:48:09,347 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 03:48:09,347 - INFO - Importing to raw_flight_training..
+2025-01-07 03:55:08,791 - INFO - Running the script at 03:55...
+2025-01-07 03:55:08,823 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:55:21,091 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 03:55:21,091 - INFO - Importing to raw_flight_training..
+2025-01-07 03:55:29,662 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 03:55:29,662 - INFO - Importing to stg_disbursements..
+2025-01-07 03:55:29,788 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 03:55:37,892 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 03:59:41,411 - INFO - Running the script at 03:59...
+2025-01-07 03:59:41,444 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx'] ' '  03:59...
+2025-01-07 03:59:41,444 - INFO - Importing to dim_payment_schedule..
+2025-01-07 03:59:54,740 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 03:59:54,740 - INFO - Importing to raw_flight_training..
+2025-01-07 04:00:05,705 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:00:05,706 - INFO - Importing to stg_disbursements..
+2025-01-07 04:00:05,832 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:00:14,342 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:09:39,157 - INFO - Running the script at 04:09...
+2025-01-07 04:09:39,185 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:09:39,185 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:09:51,578 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:09:51,580 - INFO - Importing to raw_flight_training..
+2025-01-07 04:10:00,661 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:10:00,661 - INFO - Importing to stg_disbursements..
+2025-01-07 04:10:00,788 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:10:09,408 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:33:30,411 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 10, in <module>
+    from app import tmo_monachil_history
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\tmo_monachil_history.py", line 2, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+2025-01-07 04:34:04,061 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 1, in <module>
+    from app import daily_runtime
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\daily_runtime.py", line 10, in <module>
+    from app import tmo_monachil_history
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\tmo_monachil_history.py", line 10, in <module>
+    from app import config
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\app\config\__init__.py", line 6, in <module>
+    with open(path) as config_file:
+         ^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Kyrie Garcera\\Desktop\\StratusAutomate\\import_to_db_enhancement\\app\\conf\\headers.json'
+2025-01-07 04:34:17,806 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 1, in <module>
+    from main import Main
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\main.py", line 2, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+2025-01-07 04:34:28,794 - INFO - Running the script at 04:34...
+2025-01-07 04:34:28,824 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:34:28,824 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:34:56,447 - INFO - Running the script at 04:34...
+2025-01-07 04:34:56,480 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:34:56,481 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:35:08,788 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:35:08,789 - INFO - Importing to raw_flight_training..
+2025-01-07 04:35:17,697 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:35:17,697 - INFO - Importing to stg_disbursements..
+2025-01-07 04:35:17,827 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:35:25,996 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:35:25,996 - INFO - Running tmo and monachil history
+2025-01-07 04:36:14,914 - INFO - Now extracting tmo_loans_history
+2025-01-07 04:36:15,069 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 04:36:15,151 - ERROR - Database configuration file not found: [Errno 2] No such file or directory: 'database.json'
+2025-01-07 04:45:03,444 - INFO - Running the script at 04:45...
+2025-01-07 04:45:03,473 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:45:03,473 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:45:15,026 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:45:15,026 - INFO - Importing to raw_flight_training..
+2025-01-07 04:45:23,005 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:45:23,005 - INFO - Importing to stg_disbursements..
+2025-01-07 04:45:23,129 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:45:30,850 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:45:30,851 - INFO - Running tmo and monachil history
+2025-01-07 04:46:16,118 - INFO - Now extracting tmo_loans_history
+2025-01-07 04:46:16,278 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 04:46:34,367 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 04:47:14,443 - INFO - Now extracting tmo_loans_history_monachil
+2025-01-07 04:47:14,634 - INFO - Data retrieved for tmo_loans_history_monachil
+2025-01-07 04:47:31,690 - INFO - Data for tmo_loans_history_monachil successfully saved to database.
+2025-01-07 04:50:34,396 - INFO - Running the script at 04:50...
+2025-01-07 04:50:34,424 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:50:34,425 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:50:47,052 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:50:47,052 - INFO - Importing to raw_flight_training..
+2025-01-07 04:50:55,910 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:50:55,910 - INFO - Importing to stg_disbursements..
+2025-01-07 04:50:56,041 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:51:04,154 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:51:04,154 - INFO - Running tmo and monachil history
+2025-01-07 04:51:52,685 - INFO - Now extracting tmo_loans_history
+2025-01-07 04:51:52,846 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 04:52:10,372 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 04:52:58,419 - INFO - Now extracting tmo_loans_history_monachil
+2025-01-07 04:52:58,660 - INFO - Data retrieved for tmo_loans_history_monachil
+2025-01-07 04:53:16,270 - INFO - Data for tmo_loans_history_monachil successfully saved to database.
+2025-01-07 04:53:16,295 - INFO - Running the script at 04:53...
+2025-01-07 04:53:16,296 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:53:16,296 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:53:28,988 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:53:28,988 - INFO - Importing to raw_flight_training..
+2025-01-07 04:53:37,941 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:53:37,941 - INFO - Importing to stg_disbursements..
+2025-01-07 04:53:38,073 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:53:46,279 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:53:46,280 - INFO - Running tmo and monachil history
+2025-01-07 04:54:29,547 - INFO - Now extracting tmo_loans_history
+2025-01-07 04:54:29,718 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 04:54:46,707 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 04:55:45,814 - INFO - Running the script at 04:55...
+2025-01-07 04:55:45,844 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:55:45,845 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:55:58,904 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:55:58,904 - INFO - Importing to raw_flight_training..
+2025-01-07 04:56:08,347 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:56:08,347 - INFO - Importing to stg_disbursements..
+2025-01-07 04:56:08,477 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 04:56:16,816 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 04:56:16,817 - INFO - Running tmo and monachil history
+2025-01-07 04:57:05,985 - INFO - Now extracting tmo_loans_history
+2025-01-07 04:57:06,142 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 04:57:34,385 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 04:58:17,823 - INFO - Now extracting tmo_loans_history_monachil
+2025-01-07 04:58:17,984 - INFO - Data retrieved for tmo_loans_history_monachil
+2025-01-07 04:58:35,752 - INFO - Data for tmo_loans_history_monachil successfully saved to database.
+2025-01-07 04:58:35,773 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 7, in <module>
+    schedule.every().day.at("04:58").do(process)
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\env\Lib\site-packages\schedule\__init__.py", line 655, in do
+    self.job_func = functools.partial(job_func, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: the first argument must be callable
+2025-01-07 04:59:37,652 - INFO - Running the script at 04:59...
+2025-01-07 04:59:37,681 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 04:59:37,681 - INFO - Importing to dim_payment_schedule..
+2025-01-07 04:59:50,426 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 04:59:50,427 - INFO - Importing to raw_flight_training..
+2025-01-07 04:59:59,363 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 04:59:59,363 - INFO - Importing to stg_disbursements..
+2025-01-07 04:59:59,487 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 05:00:10,776 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 05:00:10,776 - INFO - Running tmo and monachil history
+2025-01-07 05:01:03,417 - INFO - Now extracting tmo_loans_history
+2025-01-07 05:01:03,575 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 05:01:20,530 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 05:02:05,492 - INFO - Now extracting tmo_loans_history_monachil
+2025-01-07 05:02:05,647 - INFO - Data retrieved for tmo_loans_history_monachil
+2025-01-07 05:02:23,360 - INFO - Data for tmo_loans_history_monachil successfully saved to database.
+2025-01-07 05:02:23,380 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 7, in <module>
+    schedule.every().day.at("05:04").do(main_instance.process)
+                                        ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'process'
+2025-01-07 05:03:44,122 - INFO - Running the script at 05:03...
+2025-01-07 05:03:44,149 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 05:03:44,149 - INFO - Importing to dim_payment_schedule..
+2025-01-07 05:03:57,216 - INFO - DataFrame for dim_payment_schedule successfully saved as SQL table.
+2025-01-07 05:03:57,216 - INFO - Importing to raw_flight_training..
+2025-01-07 05:04:06,328 - INFO - DataFrame for raw_flight_training successfully saved as SQL table.
+2025-01-07 05:04:06,328 - INFO - Importing to stg_disbursements..
+2025-01-07 05:04:06,454 - INFO - The last unnamed column was renamed to 'Boolean'
+2025-01-07 05:04:14,563 - INFO - DataFrame for stg_disbursements successfully saved as SQL table.
+2025-01-07 05:04:14,563 - INFO - Running tmo and monachil history
+2025-01-07 05:04:54,721 - INFO - Now extracting tmo_loans_history
+2025-01-07 05:04:54,876 - INFO - Data retrieved for tmo_loans_history
+2025-01-07 05:05:12,670 - INFO - Data for tmo_loans_history successfully saved to database.
+2025-01-07 05:05:59,932 - INFO - Now extracting tmo_loans_history_monachil
+2025-01-07 05:06:00,093 - INFO - Data retrieved for tmo_loans_history_monachil
+2025-01-07 05:06:17,549 - INFO - Data for tmo_loans_history_monachil successfully saved to database.
+2025-01-07 05:06:17,569 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\run.py", line 7, in <module>
+    schedule.every().day.at("05:05").do(main_instance.process())
+  File "C:\Users\Kyrie Garcera\Desktop\StratusAutomate\import_to_db_enhancement\env\Lib\site-packages\schedule\__init__.py", line 655, in do
+    self.job_func = functools.partial(job_func, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: the first argument must be callable
+2025-01-07 05:11:00,371 - INFO - Running the script at 05:11...
+2025-01-07 05:11:00,401 - INFO - Running file: ['raw_flight_training.xlsx', 'stg_disbursements.xlsx', 'dim_payment_schedule.xlsx']
+2025-01-07 05:11:00,401 - INFO - Importing to dim_payment_schedule..

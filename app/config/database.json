@@ -1,0 +1,6 @@
+{
+  "DB_HOST": "stratus-db-reporting.cszd17ujdumz.us-east-1.rds.amazonaws.com",
+  "DB_USERNAME": "admin",
+  "DB_PASSWORD": "CtPMicUiM5CchYE3CpLN",
+  "DB_NAME": "test_analytics_db"
+}
