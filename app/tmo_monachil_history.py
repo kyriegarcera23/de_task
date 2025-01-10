@@ -17,7 +17,8 @@ class Tmo_Monachil_History:
         self.db_json                   = os.path.join(os.getcwd(),"app", "config","database.json")
         self.content_type              = config.content_type
         self.token                     = config.token
-        self.database                  = config.database
+        self.database_tmo              = config.database_tmo
+        self.database_monachil         = config.database_monachil
         self.user_agent                = config.user_agent
         self.url                       = config.url
 
@@ -82,7 +83,7 @@ class Tmo_Monachil_History:
         headers = {
             "Content-Type": self.content_type,
             "Token": self.token,
-            "Database": self.database,
+            "Database": self.database_tmo,
             "User-Agent": self.user_agent
         }
 
@@ -98,7 +99,7 @@ class Tmo_Monachil_History:
         headers = {
             "Content-Type": self.content_type,
             "Token": self.token,
-            "Database": self.database,
+            "Database": self.database_monachil,
             "User-Agent": self.user_agent
         }
 

@@ -7,6 +7,7 @@ with open(path) as config_file:
     data = json.load(config_file)
     content_type = data['headers']['Content-Type']
     token = data['headers']['Token']
-    database = data['headers']['Database']
+    database_tmo = data['headers']['Database_TMO']
+    database_monachil = data['headers']['Database_Monachil']
     user_agent = data['headers']['User-Agent']
     url = data['headers']['Url']
